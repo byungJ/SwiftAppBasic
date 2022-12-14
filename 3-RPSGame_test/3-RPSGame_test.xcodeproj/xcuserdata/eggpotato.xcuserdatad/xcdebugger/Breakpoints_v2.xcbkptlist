@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "AB93D6FD-4882-4DCF-9195-5B0FE75FFCD8"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "18263752-34DC-471D-9252-2D1D2E79302E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "3-RPSGame_test/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "18263752-34DC-471D-9252-2D1D2E79302E - 28fb817f6f7de864"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__RPSGame_test.ViewController.myChoice.getter : __RPSGame_test.RPS"
+                  moduleName = "3-RPSGame_test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eggpotato/project/SwiftMaster_app_basic/MyApp/3-RPSGame_test/3-RPSGame_test/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "18263752-34DC-471D-9252-2D1D2E79302E - 2873925eb3a800a0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__RPSGame_test.ViewController.myChoice.setter : __RPSGame_test.RPS"
+                  moduleName = "3-RPSGame_test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eggpotato/project/SwiftMaster_app_basic/MyApp/3-RPSGame_test/3-RPSGame_test/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "18263752-34DC-471D-9252-2D1D2E79302E - b0b4d54155c0b655"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__RPSGame_test.ViewController.myChoice.modify : __RPSGame_test.RPS"
+                  moduleName = "3-RPSGame_test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eggpotato/project/SwiftMaster_app_basic/MyApp/3-RPSGame_test/3-RPSGame_test/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "18263752-34DC-471D-9252-2D1D2E79302E - afdee6b000b2faae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__RPSGame_test.ViewController.myChoice.modify : __RPSGame_test.RPS with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "3-RPSGame_test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eggpotato/project/SwiftMaster_app_basic/MyApp/3-RPSGame_test/3-RPSGame_test/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "18263752-34DC-471D-9252-2D1D2E79302E - af6685ce6e3907ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__RPSGame_test.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; __RPSGame_test.ViewController"
+                  moduleName = "3-RPSGame_test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eggpotato/project/SwiftMaster_app_basic/MyApp/3-RPSGame_test/3-RPSGame_test/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "356">
+               </Location>
+               <Location
+                  uuid = "18263752-34DC-471D-9252-2D1D2E79302E - 55abe9a719f4ee22"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__RPSGame_test.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;__RPSGame_test.ViewController&gt;"
+                  moduleName = "3-RPSGame_test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eggpotato/project/SwiftMaster_app_basic/MyApp/3-RPSGame_test/3-RPSGame_test/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "332">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
