@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BA840D02950BB6C007577FC /* UpDownManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA840CF2950BB6C007577FC /* UpDownManager.swift */; };
 		0BE48588288CDA4C0073BBDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE48587288CDA4C0073BBDE /* AppDelegate.swift */; };
 		0BE4858A288CDA4C0073BBDE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE48589288CDA4C0073BBDE /* SceneDelegate.swift */; };
 		0BE4858C288CDA4C0073BBDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE4858B288CDA4C0073BBDE /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BA840CF2950BB6C007577FC /* UpDownManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpDownManager.swift; sourceTree = "<group>"; };
 		0BE48584288CDA4C0073BBDE /* 5-UpDownGame_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "5-UpDownGame_test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BE48587288CDA4C0073BBDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0BE48589288CDA4C0073BBDE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BA840CC2950BB26007577FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0BE4858D288CDA4C0073BBDE /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0BA840CD2950BB2F007577FC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0BA840CF2950BB6C007577FC /* UpDownManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0BA840CE2950BB3B007577FC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0BE4858B288CDA4C0073BBDE /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		0BE4857B288CDA4C0073BBDE = {
 			isa = PBXGroup;
 			children = (
@@ -58,8 +84,9 @@
 			children = (
 				0BE48587288CDA4C0073BBDE /* AppDelegate.swift */,
 				0BE48589288CDA4C0073BBDE /* SceneDelegate.swift */,
-				0BE4858B288CDA4C0073BBDE /* ViewController.swift */,
-				0BE4858D288CDA4C0073BBDE /* Main.storyboard */,
+				0BA840CC2950BB26007577FC /* Views */,
+				0BA840CD2950BB2F007577FC /* Models */,
+				0BA840CE2950BB3B007577FC /* Controllers */,
 				0BE48590288CDA4D0073BBDE /* Assets.xcassets */,
 				0BE48592288CDA4D0073BBDE /* LaunchScreen.storyboard */,
 				0BE48595288CDA4D0073BBDE /* Info.plist */,
@@ -140,6 +167,7 @@
 			files = (
 				0BE4858C288CDA4C0073BBDE /* ViewController.swift in Sources */,
 				0BE48588288CDA4C0073BBDE /* AppDelegate.swift in Sources */,
+				0BA840D02950BB6C007577FC /* UpDownManager.swift in Sources */,
 				0BE4858A288CDA4C0073BBDE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

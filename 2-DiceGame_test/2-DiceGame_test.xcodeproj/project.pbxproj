@@ -13,6 +13,7 @@
 		0B32FAAE288C14E3001FDC58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B32FAAC288C14E3001FDC58 /* Main.storyboard */; };
 		0B32FAB0288C14E4001FDC58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B32FAAF288C14E4001FDC58 /* Assets.xcassets */; };
 		0B32FAB3288C14E4001FDC58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B32FAB1288C14E4001FDC58 /* LaunchScreen.storyboard */; };
+		0BA840C62950B127007577FC /* DiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA840C52950B127007577FC /* DiceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0B32FAAF288C14E4001FDC58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B32FAB2288C14E4001FDC58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B32FAB4288C14E4001FDC58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BA840C52950B127007577FC /* DiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +60,38 @@
 			children = (
 				0B32FAA6288C14E3001FDC58 /* AppDelegate.swift */,
 				0B32FAA8288C14E3001FDC58 /* SceneDelegate.swift */,
-				0B32FAAA288C14E3001FDC58 /* ViewController.swift */,
-				0B32FAAC288C14E3001FDC58 /* Main.storyboard */,
+				0BA840C42950B0F2007577FC /* Models */,
+				0BA840C22950B0DB007577FC /* Views */,
+				0BA840C32950B0E3007577FC /* Controllers */,
 				0B32FAAF288C14E4001FDC58 /* Assets.xcassets */,
 				0B32FAB1288C14E4001FDC58 /* LaunchScreen.storyboard */,
 				0B32FAB4288C14E4001FDC58 /* Info.plist */,
 			);
 			path = "2-DiceGame_test";
+			sourceTree = "<group>";
+		};
+		0BA840C22950B0DB007577FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0B32FAAC288C14E3001FDC58 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0BA840C32950B0E3007577FC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0B32FAAA288C14E3001FDC58 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0BA840C42950B0F2007577FC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0BA840C52950B127007577FC /* DiceManager.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BA840C62950B127007577FC /* DiceManager.swift in Sources */,
 				0B32FAAB288C14E3001FDC58 /* ViewController.swift in Sources */,
 				0B32FAA7288C14E3001FDC58 /* AppDelegate.swift in Sources */,
 				0B32FAA9288C14E3001FDC58 /* SceneDelegate.swift in Sources */,

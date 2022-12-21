@@ -11,6 +11,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var mainLabel: UILabel!
     @IBOutlet weak var numberLabel: UILabel!
     
+    var upDownManager = UpDownManager()
+    
     var randomNumber: Int = Int.random(in: 1...10)
     var myNumber: Int = 1
     
@@ -18,8 +20,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        mainLabel.text = "숫자를 선택하세요~~!!"
+        reset()
+    }
+    
+    func reset() {
+        mainLabel.text = "선택하세요"
         numberLabel.text = ""
+        upDownManager.resetNum()
     }
 
     
@@ -36,27 +43,16 @@ class ViewController: UIViewController {
     
     @IBAction func selectButtonTapped(_ sender: UIButton) {
         
-        //label로 값 가져오기
-        guard let myNumberString = numberLabel.text else { return }
-        guard let myNumberInt = Int(myNumberString) else { return }
+        guard let myNumString = numberLabel.text,
+              let myNumber = Int(myNumString) else { return }
         
-        if randomNumber > myNumber {
-            mainLabel.text = "UP"
-        } else if randomNumber < myNumber {
-            mainLabel.text = "DOWN"
-        } else {
-            mainLabel.text = "BINGO😆"
-            randomNumber = Int.random(in: 1...10)
-        }
+        upDownManager.setUserNum(num: myNumber)
+        mainLabel.text = upDownManager.getUpDownResult()
         
     }
     
     @IBAction func resetButtonTapped(_ sender: UIButton) {
-        randomNumber = Int.random(in: 1...10)
-        myNumber = 0
-        
-        mainLabel.text = "숫자를 선택하세요~~!!"
-        numberLabel.text = ""
+        reset()
     }
     
 }
